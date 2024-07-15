@@ -46,6 +46,7 @@ h2{
     margin-right: 30px;
     border: 2px solid hsl(24, 37%, 18%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
 }
 .blog-box:hover{
     transform: scale(1.1);
@@ -63,6 +64,7 @@ h2{
     object-fit: cover;
     object-position: center;
     border-bottom: 2px solid hsl(24, 37%, 18%);
+    border-radius: 20px;
 }
 .blog-text h3{
     padding: 10px;
@@ -100,16 +102,31 @@ h2{
 	background:  linear-gradient(to right, hsl(24, 37%, 18%), hsl(24, 37%, 50%));
 	transition: .5s;
 }
+footer{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),#795548; 
+}
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
 .footer-text{
-    list-style: none;
-    text-decoration: none;
+    margin: 30px 0 ;
 }
 .footer-text ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.footer-text a{
+.footer-text ul li{
+    list-style: none;
+}
+.footer-text ul li a{
     color: whitesmoke;
     margin: 20px;
+    text-decoration: none;
     font-size: 1.3rem;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.footer-text ul li a:hover{
+    opacity: 1;
 }
