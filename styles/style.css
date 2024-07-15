@@ -65,6 +65,8 @@ h2{
     object-position: center;
     border-bottom: 2px solid hsl(24, 37%, 18%);
     border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .blog-text h3{
     padding: 10px;
@@ -103,14 +105,14 @@ h2{
 	transition: .5s;
 }
 footer{
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),#795548; 
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),hsl(24, 37%, 18%); 
 }
 .footer-container{
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 30px 30px 20px;
 }
 .footer-text{
-    margin: 30px 0 ;
+    margin: 10px 0 ;
 }
 .footer-text ul{
     display: flex;
@@ -129,4 +131,10 @@ footer{
 }
 .footer-text ul li a:hover{
     opacity: 1;
+}
+.end{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
