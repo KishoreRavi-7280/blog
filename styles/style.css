@@ -174,4 +174,8 @@ footer{
     .footer-text ul li {
         margin: 5px 0;
     }
+    .footer-text{
+        display: flex;
+        justify-content: center;
+    }
 }
